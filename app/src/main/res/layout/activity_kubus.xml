@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Kubus">
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Panjang" />
+
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar"/>
+    <EditText
+        android:id="@+id/et_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"/>
+
+    <Button
+        android:id="@+id/btnVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+    <Button
+        android:id="@+id/btnPindah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali" />
+
+</LinearLayout>
